@@ -59,7 +59,7 @@ ATGACGTTAGCA
 GGGATGCGTACGTTAGCC
 ```
 
-## Usage
+## Run locally
 1. Intall pandas
 ```pip install pandas```
 
@@ -70,6 +70,9 @@ mutagen-px.py --gene GENE_NAME --ref REF_SEQ_TXT --profile MUTATION_PROFILE_TSV 
 Sample script: ```mutagen-px.py --gene TP53 --ref ref_seq.txt --profile patient_profile.tsv --outdir output```
 
 *The script above assumes that the sequence name is TP53, the TP53 ref seq (FASTA format) is locate in ref_seq.txt file, the mutational profiles of patients are in patient_profile.tsv, and the run will generate a subdirectory named 'output'. The output folder will contain the multi-FASTA result.*
+
+## Run on Colab
+Load the [notebook](https://github.com/mahvin92/Mutagen-PX) to Colab and run all the cells.
 
 ## Reporting
 Comments and suggestions to improve Mutagen-PX are welcome. If you find any bug or problem, please open an issue.
